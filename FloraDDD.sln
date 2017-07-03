@@ -1,0 +1,148 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.6
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FloraDDD.Web", "FloraDDD.Web\FloraDDD.Web.csproj", "{49B69E76-70FE-4392-9E88-4AC530EDCD3E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{51E8D8E1-859B-4F29-94E4-E40F8EDAD82E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "App", "App", "{33CCAF88-6A9A-4F24-B4A4-F3E920E82E3B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{DABBB190-BF72-44BC-9A1E-7F52BEF69639}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infraestrutura", "Infraestrutura", "{158BEAF4-9F39-4917-8723-F7F73330F41C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FloraDDD.App", "FloraDDD.App\FloraDDD.App.csproj", "{B9D9223F-4AF9-4AE8-A8B4-65094D386BE0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FloraDDD.App.Tests", "FloraDDD.App.Tests\FloraDDD.App.Tests.csproj", "{F22B1B03-E460-400F-AC75-D8929934A41D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FloraDDD.Domain", "FloraDDD.Domain\FloraDDD.Domain.csproj", "{F9E67D36-C6CA-496C-9DE7-9A6CC33809F0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FloraDDD.Domain.Tests", "FloraDDD.Domain.Tests\FloraDDD.Domain.Tests.csproj", "{75173EEE-C426-42A2-817E-55F1D1C8CA2D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Helpers", "Helpers", "{CA741C50-C57E-4F89-A01E-839097BA63CB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Repositories", "Repositories", "{3917B86A-37FA-4630-A967-7B93E8A2A593}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FloraDDD.Repositories.Tests", "FloraDDD.Repositories.Tests\FloraDDD.Repositories.Tests.csproj", "{F2862911-DEF7-4D1E-AB72-FCFA79D31411}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FloraDDD.Repositories", "FloraDDD.Repositories\FloraDDD.Repositories.csproj", "{01E60111-17EC-4D75-913D-B93D7BB08595}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FloraDDD.Helpers", "FloraDDD.Helpers\FloraDDD.Helpers.csproj", "{2A2FB36D-9A3A-4D00-97D6-1D0CE99A342E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FloraDDD.Helpers.Tests", "FloraDDD.Helpers.Tests\FloraDDD.Helpers.Tests.csproj", "{AE6113EF-56DA-4E54-A1A7-C22D97D843CB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FloraDDD.Mvc", "FloraDDD.Mvc\FloraDDD.Mvc.csproj", "{4FD14269-F75C-467A-B2B4-05E0FC69A2DD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{49B69E76-70FE-4392-9E88-4AC530EDCD3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49B69E76-70FE-4392-9E88-4AC530EDCD3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49B69E76-70FE-4392-9E88-4AC530EDCD3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49B69E76-70FE-4392-9E88-4AC530EDCD3E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9D9223F-4AF9-4AE8-A8B4-65094D386BE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9D9223F-4AF9-4AE8-A8B4-65094D386BE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9D9223F-4AF9-4AE8-A8B4-65094D386BE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9D9223F-4AF9-4AE8-A8B4-65094D386BE0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F22B1B03-E460-400F-AC75-D8929934A41D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F22B1B03-E460-400F-AC75-D8929934A41D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F22B1B03-E460-400F-AC75-D8929934A41D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F22B1B03-E460-400F-AC75-D8929934A41D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9E67D36-C6CA-496C-9DE7-9A6CC33809F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9E67D36-C6CA-496C-9DE7-9A6CC33809F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9E67D36-C6CA-496C-9DE7-9A6CC33809F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9E67D36-C6CA-496C-9DE7-9A6CC33809F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75173EEE-C426-42A2-817E-55F1D1C8CA2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75173EEE-C426-42A2-817E-55F1D1C8CA2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75173EEE-C426-42A2-817E-55F1D1C8CA2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75173EEE-C426-42A2-817E-55F1D1C8CA2D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2862911-DEF7-4D1E-AB72-FCFA79D31411}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2862911-DEF7-4D1E-AB72-FCFA79D31411}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2862911-DEF7-4D1E-AB72-FCFA79D31411}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2862911-DEF7-4D1E-AB72-FCFA79D31411}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01E60111-17EC-4D75-913D-B93D7BB08595}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01E60111-17EC-4D75-913D-B93D7BB08595}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01E60111-17EC-4D75-913D-B93D7BB08595}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01E60111-17EC-4D75-913D-B93D7BB08595}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A2FB36D-9A3A-4D00-97D6-1D0CE99A342E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A2FB36D-9A3A-4D00-97D6-1D0CE99A342E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A2FB36D-9A3A-4D00-97D6-1D0CE99A342E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A2FB36D-9A3A-4D00-97D6-1D0CE99A342E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE6113EF-56DA-4E54-A1A7-C22D97D843CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE6113EF-56DA-4E54-A1A7-C22D97D843CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE6113EF-56DA-4E54-A1A7-C22D97D843CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE6113EF-56DA-4E54-A1A7-C22D97D843CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4FD14269-F75C-467A-B2B4-05E0FC69A2DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FD14269-F75C-467A-B2B4-05E0FC69A2DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FD14269-F75C-467A-B2B4-05E0FC69A2DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FD14269-F75C-467A-B2B4-05E0FC69A2DD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{49B69E76-70FE-4392-9E88-4AC530EDCD3E} = {51E8D8E1-859B-4F29-94E4-E40F8EDAD82E}
+		{B9D9223F-4AF9-4AE8-A8B4-65094D386BE0} = {33CCAF88-6A9A-4F24-B4A4-F3E920E82E3B}
+		{F22B1B03-E460-400F-AC75-D8929934A41D} = {33CCAF88-6A9A-4F24-B4A4-F3E920E82E3B}
+		{F9E67D36-C6CA-496C-9DE7-9A6CC33809F0} = {DABBB190-BF72-44BC-9A1E-7F52BEF69639}
+		{75173EEE-C426-42A2-817E-55F1D1C8CA2D} = {DABBB190-BF72-44BC-9A1E-7F52BEF69639}
+		{CA741C50-C57E-4F89-A01E-839097BA63CB} = {158BEAF4-9F39-4917-8723-F7F73330F41C}
+		{3917B86A-37FA-4630-A967-7B93E8A2A593} = {158BEAF4-9F39-4917-8723-F7F73330F41C}
+		{F2862911-DEF7-4D1E-AB72-FCFA79D31411} = {3917B86A-37FA-4630-A967-7B93E8A2A593}
+		{01E60111-17EC-4D75-913D-B93D7BB08595} = {3917B86A-37FA-4630-A967-7B93E8A2A593}
+		{2A2FB36D-9A3A-4D00-97D6-1D0CE99A342E} = {CA741C50-C57E-4F89-A01E-839097BA63CB}
+		{AE6113EF-56DA-4E54-A1A7-C22D97D843CB} = {CA741C50-C57E-4F89-A01E-839097BA63CB}
+		{4FD14269-F75C-467A-B2B4-05E0FC69A2DD} = {51E8D8E1-859B-4F29-94E4-E40F8EDAD82E}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 11
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://leandroflora.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = FloraDDD.Web\\FloraDDD.Web.csproj
+		SccProjectTopLevelParentUniqueName1 = FloraDDD.sln
+		SccProjectName1 = FloraDDD.Web
+		SccLocalPath1 = FloraDDD.Web
+		SccProjectUniqueName2 = FloraDDD.App\\FloraDDD.App.csproj
+		SccProjectTopLevelParentUniqueName2 = FloraDDD.sln
+		SccProjectName2 = FloraDDD.App
+		SccLocalPath2 = FloraDDD.App
+		SccProjectUniqueName3 = FloraDDD.App.Tests\\FloraDDD.App.Tests.csproj
+		SccProjectTopLevelParentUniqueName3 = FloraDDD.sln
+		SccProjectName3 = FloraDDD.App.Tests
+		SccLocalPath3 = FloraDDD.App.Tests
+		SccProjectUniqueName4 = FloraDDD.Domain\\FloraDDD.Domain.csproj
+		SccProjectTopLevelParentUniqueName4 = FloraDDD.sln
+		SccProjectName4 = FloraDDD.Domain
+		SccLocalPath4 = FloraDDD.Domain
+		SccProjectUniqueName5 = FloraDDD.Domain.Tests\\FloraDDD.Domain.Tests.csproj
+		SccProjectTopLevelParentUniqueName5 = FloraDDD.sln
+		SccProjectName5 = FloraDDD.Domain.Tests
+		SccLocalPath5 = FloraDDD.Domain.Tests
+		SccProjectUniqueName6 = FloraDDD.Repositories.Tests\\FloraDDD.Repositories.Tests.csproj
+		SccProjectTopLevelParentUniqueName6 = FloraDDD.sln
+		SccProjectName6 = FloraDDD.Repositories.Tests
+		SccLocalPath6 = FloraDDD.Repositories.Tests
+		SccProjectUniqueName7 = FloraDDD.Repositories\\FloraDDD.Repositories.csproj
+		SccProjectTopLevelParentUniqueName7 = FloraDDD.sln
+		SccProjectName7 = FloraDDD.Repositories
+		SccLocalPath7 = FloraDDD.Repositories
+		SccProjectUniqueName8 = FloraDDD.Helpers\\FloraDDD.Helpers.csproj
+		SccProjectTopLevelParentUniqueName8 = FloraDDD.sln
+		SccProjectName8 = FloraDDD.Helpers
+		SccLocalPath8 = FloraDDD.Helpers
+		SccProjectUniqueName9 = FloraDDD.Helpers.Tests\\FloraDDD.Helpers.Tests.csproj
+		SccProjectTopLevelParentUniqueName9 = FloraDDD.sln
+		SccProjectName9 = FloraDDD.Helpers.Tests
+		SccLocalPath9 = FloraDDD.Helpers.Tests
+		SccProjectUniqueName10 = FloraDDD.Mvc\\FloraDDD.Mvc.csproj
+		SccProjectTopLevelParentUniqueName10 = FloraDDD.sln
+		SccProjectName10 = FloraDDD.Mvc
+		SccLocalPath10 = FloraDDD.Mvc
+	EndGlobalSection
+EndGlobal
